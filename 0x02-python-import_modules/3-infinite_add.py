@@ -6,4 +6,3 @@ if __name__ == "__main__":
     for index in range(len(sys.argv) - 1):
         total += int(sys.argv[index + 1])
     print("{}".format(total))
-
